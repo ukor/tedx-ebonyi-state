@@ -19,5 +19,7 @@ You are free. I mean, free like a bird.
 # License
 
 You are a bird. Do whatever you want.
+
 This is free and unencumbered software released into the public domain.
+
 TEDx and TEDxEbonyi are properties of their respective owners. And they are used here with their prior permission.
