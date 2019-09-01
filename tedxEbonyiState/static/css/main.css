@@ -1,0 +1,108 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-width: 100vh;
+    min-height: 100vh;
+}
+
+#hero-text-wrapper {
+    line-height: .2em;
+}
+/* #hero-title {
+    line-height: .5em;
+} */
+
+#frontpage-about-ted {
+    background-color: #fcf4f4;
+    margin-top: 13px;
+}
+
+#frontpage-about-tedx {
+    margin-top: 13px;
+}
+#frontpage-about-ted > div, #frontpage-about-tedx > div {
+    padding: 10% 20% 15% 20%;
+    line-height: .2em;
+}
+#frontpage-about-ted > div > h3, #frontpage-about-tedx > div > h3 {
+    line-height: .5em;
+    text-align:  right;
+    padding-right: 5%;
+}
+#frontpage-about-tedx > div > h3 {
+    line-height: .5em;
+    text-align:  left;
+    padding-left: 0;
+}
+#frontpage-about-ted > div > p, #frontpage-about-tedx > div > p {
+    line-height: 1.5em;
+    color: rgba(0, 0, 0, .6);
+    font-weight: 300;
+}
+
+#frontpage-about-tedx-ebonyi {
+    color: rgba(0, 0, 0, .6);
+    font-weight: 300;
+    font-size: 1.5em;
+}
+#frontpage-about-tedx-ebonyi > div {
+    padding: 5% 12.5%;
+    margin: 5% 12.5%;
+}
+
+#frontpage-time-date {
+    background-color: #e62b1e;
+    text-align: center;
+    color: #ffffff;
+}
+#frontpage-location {
+    /* todo - parallex effect  */
+    text-align: center;
+}
+
+#frontpage-location > div > h1 {
+    letter-spacing: .3em;
+    font-weight: 400;
+    padding-bottom: .3em;
+}
+
+#frontpage-time-date > div, #frontpage-location > div {
+    padding: 7% 12.5%;
+    margin: 7% 12.5%;
+}
+
+#frontpage-time-date > div > h1 {
+    padding-bottom: 2%;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+#frontpage-time-date > div > button {
+    font-weight: 200;
+}
+
+
+.footer {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    background-color: #2b2929;
+}
+
+#footer-inner-wrapper {}
+
+#social-media {
+    padding: 1.5% 0 5% 0;
+    text-align: center;
+}
+
+#copyright-wrapper {
+    font-size: small;
+    color: #ffffff;
+    text-align: center;
+    padding: 2% 0;
+    background-color: #000000;
+}

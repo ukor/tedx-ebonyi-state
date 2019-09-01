@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/bulma.min.css') }} />
+    <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/main.css') }} />
+    {% if title %}
+    <title>Tedx Abakaliki - {{ title }}</title>
+    {% else %}
+    <title>Tedx Abakaliki</title>
+    {% endif %}
+    <script src="https://kit.fontawesome.com/f1afc290d0.js"></script>
+</head>
+<body>
+    <nav class="navbar is-spaced">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                <img src={{ url_for('static', filename='images/lagos_logo.png')}} alt="brand logo" />
+            </a>
+
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div class="navbar-menu" id="navbarBasicExample">
+            <div class="navbar-end">
+                <a href="/" class="navbar-item">Home</a>
+                <a href="/speakers" class="navbar-item">Speakers</a>
+                <a href="/videos" class="navbar-item">Videos</a>
+                <!-- <a href="/blog" class="navbar-item">Blog</a> -->
+            </div>
+        </div>
+    </nav>
+    {%block content %} {% endblock %}
+    <footer class="footer">
+        <div class="footer-inner-wrapper">
+            <div class="social-media" id="social-media">
+                <a href="https://facebook.com" target="_blank" class="button">
+                    <span class="icon">
+                        <i class="fab fa-facebook"></i>
+                    </span> &nbsp;
+                    Facebook
+                </a>
+                <a href="https://instagram.com" target="_blank" class="button">
+                    <span class="icon">
+                        <i class="fab fa-instagram"></i>
+                    </span> &nbsp;
+                    Instagram
+                </a>
+                <a href="https://twitter.com" target="_blank" class="button">
+                    <span class="icon">
+                        <i class="fab fa-twitter"></i>
+                    </span> &nbsp;
+                    Twitter
+                </a>
+            </div>
+
+            <div class="copyright-wrapper" id="copyright-wrapper">
+                <p id="copyright-text">&copy; copyright 2019 Ted<sup>x</sup> Ebonyi. All right reseverd.</p>
+                <p id="legal">TED and TED<sup>x</sup> are properties of their respective owners. And they are used here with their prior permission.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
