@@ -1,11 +1,14 @@
 {% extends 'layout.html' %}
 {%  block content %}
 <div class="main">
-    <section class="hero is-medium is-danger">
+    <section id="frontpage-hero-wrapper" class="hero is-medium">
         <div class="hero-body">
             <div class="container" id="hero-text-wrapper">
                 <h1 class="title" id='hero-title'>TED<sup>x</sup> Abakaliki</h1>
-                <p class="tag-line-1" id="tag-line-1">Illumination</p>
+                <p class="tag-line-1" id="tag-line-1">Illumination - Convergence and divergence of light</p>
+                <div class="action-button-wrapper" id="action-button-wrapper">
+                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSf2nKMKlmmrCUVrW-6PvxKhiOG3ZLxtPmHz5FKdUZsSWmvOmg/viewform?usp=sf_link" class="button is-transparent">Register Now</a>
+                </div>
             </div>
         </div>
     </section>
@@ -45,18 +48,20 @@
     </section>
 
     <section class="frontpage-time-date" id="frontpage-time-date">
-        <div class="container section">
+        <div id="__frontpage-time-inner-wrapper">
             <h1>Saturday 5th, October 2019</h1>
             <h1>9 : 00 AM</h1>
-            <button class="button">Register Now</button>
+            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSf2nKMKlmmrCUVrW-6PvxKhiOG3ZLxtPmHz5FKdUZsSWmvOmg/viewform?usp=sf_link" class="button is-transparent">Register Now</a>
         </div>
     </section>
 
     <section class="frontpage-location" id="frontpage-location">
-        <div class="section container">
-            <h1 class="title">LOCATION</h1>
-            <h2>Bethel City Auditorium</h2>
-            <h3 class="subtitle">39 Water Works Road, CAS, Abakaliki</h3>
+        <div id="location_background__overlay">
+            <div id="frontpage-location-inner-wrapper">
+                <h1 class="title __location-text" id="location__title">LOCATION</h1>
+                <h2 class="__location-text">Bethel City Auditorium</h2>
+                <h3 class="subtitle __location-text">39 Water Works Road, CAS, Abakaliki</h3>
+            </div>
         </div>
     </section>
 </div>
