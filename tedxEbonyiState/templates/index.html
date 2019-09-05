@@ -64,6 +64,41 @@
             </div>
         </div>
     </section>
+    <section class="frontpage-gallery" id="frontpage-gallery">
+        <div id="__fp-gallary">
+            <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                    <div class="glide__slides">
+                        <div class="glide__slide">
+                            <img src={{ url_for('static', filename='images/people.jpg') }} alt="people">
+                        </div>
+                        <div class="glide__slide">
+                            <img src={{ url_for('static', filename='images/culture.jpg') }} alt="culture">
+                        </div>
+                        <div class="glide__slide">
+                            <img src={{ url_for('static', filename='images/story.jpg') }} alt="stroy">
+                        </div>
+                        <div class="glide__slide">
+                            <img src={{ url_for('static', filename='images/education-a-force-to-change.jpg') }} alt="education">
+                        </div>
+                        <div class="glide__slide">
+                            <img src={{ url_for('static', filename='images/heritage.jpg') }} alt="heritage">
+                        </div>
+                        <div class="glide__slide">
+                            <img src={{ url_for('static', filename='images/past.jpg') }} alt="past">
+                        </div>
+                        <div class="glide__slide">
+                            <img src={{ url_for('static', filename='images/tradition.jpg') }} alt="tradition">
+                        </div>
+                    </div>
+                </div>
+                <div id="fp-gallery-arrows" class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left button" data-glide-dir="<">prev</button>
+                    <button class="glide__arrow glide__arrow--right button" data-glide-dir=">">next</button>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
 
 {%  endblock content %}

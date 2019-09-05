@@ -11,6 +11,7 @@
     {% else %}
     <title>Tedx Abakaliki</title>
     {% endif %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
     <script src="https://kit.fontawesome.com/f1afc290d0.js"></script>
 </head>
 <body>
@@ -66,5 +67,18 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script type="application/javascript">
+        const glide = new Glide('.glide', {
+            type: 'slider',
+            startAt: 0,
+            perView: 3,
+            autoplay: 2500,
+            hoverpause: true,
+            keyboard: true,
+        });
+
+        glide.mount();
+    </script>
 </body>
 </html>

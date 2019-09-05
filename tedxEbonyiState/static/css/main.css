@@ -117,6 +117,15 @@ body {
     font-weight: 200;
 }
 
+#__fp-gallary {
+    padding: 5% 20%;
+}
+
+#fp-gallery-arrows {
+    text-align: center;
+    padding: 1.5%;
+}
+
 .footer {
     padding-left: 0;
     padding-right: 0;
