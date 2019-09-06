@@ -7,13 +7,26 @@ body {
     min-width: 100vh;
     min-height: 100vh;
 }
-
-#hero-text-wrapper {
-    line-height: .2em;
+#frontpage-hero-wrapper {
+    background-image: url('../images/illumination-dark-background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-/* #hero-title {
+#hero-title {
+    color: #ffffff;
     line-height: .5em;
-} */
+    font-size: 2.5em;
+    font-weight: 500;
+}
+#tag-line-1 {
+    color: #ffffff;
+    font-size: 1.3em;
+}
+#action-button-wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 #frontpage-about-ted {
     background-color: #fcf4f4;
@@ -60,30 +73,49 @@ body {
 }
 #frontpage-location {
     /* todo - parallex effect  */
+    background-image: url('../images/map_image.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Background attachment act weird on some browsers,keep an eye on it */
+    background-attachment: fixed;
     text-align: center;
 }
 
-#frontpage-location > div > h1 {
+#location_background__overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Background attachment act weird on some browsers,keep an eye on it */
+    background-attachment: fixed;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#frontpage-location-inner-wrapper, .__location-text {
+    color: #ffffff;
+}
+#location__title {
+    color: #ffffff;
     letter-spacing: .3em;
     font-weight: 400;
     padding-bottom: .3em;
 }
 
-#frontpage-time-date > div, #frontpage-location > div {
-    padding: 7% 12.5%;
-    margin: 7% 12.5%;
+#__frontpage-time-inner-wrapper {
+    padding: 7% 0;
 }
 
-#frontpage-time-date > div > h1 {
+#__frontpage-time-inner-wrapper > h1 {
     padding-bottom: 2%;
     font-weight: 900;
     font-size: 2em;
 }
 
-#frontpage-time-date > div > button {
+#__frontpage-time-inner-wrapper > a {
     font-weight: 200;
 }
-
 
 .footer {
     padding-left: 0;
