@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/bulma.min.css') }} />
     <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/main.css') }} />
+    <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/countdown_timer.css') }} />
     {% if title %}
     <title>Tedx Abakaliki - {{ title }}</title>
     {% else %}
@@ -80,5 +81,6 @@
 
         glide.mount();
     </script>
+    <script src={{ url_for('static', filename='js/countdown_timer.js') }}></script>
 </body>
 </html>
