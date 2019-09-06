@@ -4,3 +4,4 @@ include/
 lib/
 pyvenv.cfg
 __pycache__/
+*.nginx.conf
