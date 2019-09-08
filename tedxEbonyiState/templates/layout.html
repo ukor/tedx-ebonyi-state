@@ -16,6 +16,10 @@
     <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/bulma.min.css') }} />
     <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/main.css') }} />
     <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/countdown_timer.css') }} />
+    <link rel="apple-touch-icon" sizes="180x180" href={{ url_for('static', filename='favicon/apple-touch-icon.png')}} />
+    <link rel="icon" type="image/png" sizes="32x32" href={{ url_for('static', filename='favicon/favicon-32x32.png')}} />
+    <link rel="icon" type="image/png" sizes="16x16" href={{ url_for('static', filename='favicon/favicon-16x16.png')}} />
+    <link rel="manifest" href={{ url_for('static', filename='favicon/site.webmanifest')}} />
     {% if title %}
     <title>Tedx Abakaliki - {{ title }}</title>
     {% else %}
@@ -28,7 +32,7 @@
     <nav class="navbar is-spaced">
         <div class="navbar-brand">
             <a href="/" class="navbar-item">
-                <img src={{ url_for('static', filename='images/tedx-abakaliki-logo.png')}} alt="brand logo" />
+                <img src={{ url_for('static', filename='images/logo.png')}} alt="brand logo" />
             </a>
 
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="ted__navigation_menu">
