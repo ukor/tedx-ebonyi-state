@@ -5,4 +5,5 @@ lib/
 pyvenv.cfg
 __pycache__/
 *.nginx.conf
-.well_known
+.well_known/
+.well-known/
