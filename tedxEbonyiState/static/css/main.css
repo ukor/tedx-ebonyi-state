@@ -8,6 +8,7 @@ body {
     min-height: 100vh;
 }
 #frontpage-hero-wrapper {
+    width: 100%;
     background-image: url('../images/illumination-dark-background.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -72,7 +73,7 @@ body {
     color: #ffffff;
 }
 #frontpage-location {
-    /* todo - parallex effect  */
+    width: 100%;
     background-image: url('../images/map_image.png');
     background-position: center;
     background-size: cover;
