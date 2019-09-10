@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="TEDxAbakaliki is an annual TEDx conference that aspires to bring together Nigeria’s best scientists, entrepreneurs, professionals, innovators and reformers to share ideas that would spark deep discussions and birth new ideas that will change our society."/>
+    <meta name="theme-color" content="#000000">
+    <link rel="manifest" href={{ url_for('static', filename='manifest.json') }}>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147262774-1"></script>
     <script>
@@ -39,7 +42,6 @@
     <link rel="apple-touch-icon" sizes="180x180" href={{ url_for('static', filename='favicon/apple-touch-icon.png')}} />
     <link rel="icon" type="image/png" sizes="32x32" href={{ url_for('static', filename='favicon/favicon-32x32.png')}} />
     <link rel="icon" type="image/png" sizes="16x16" href={{ url_for('static', filename='favicon/favicon-16x16.png')}} />
-    <link rel="manifest" href={{ url_for('static', filename='favicon/site.webmanifest')}} />
     {% if title %}
     <title>Tedx Abakaliki - {{ title }}</title>
     {% else %}
@@ -74,19 +76,19 @@
     <footer class="footer">
         <div class="footer-inner-wrapper">
             <div class="social-media" id="social-media">
-                <a href="https://facebook.com" target="_blank" class="button">
+                <a target="_blank" rel="noreferrer" href="https://facebook.com" target="_blank" class="button">
                     <span class="icon">
                         <i class="fab fa-facebook"></i>
                     </span> &nbsp;
                     Facebook
                 </a>
-                <a href="https://instagram.com" target="_blank" class="button">
+                <a target="_blank" rel="noreferrer" href="https://instagram.com" target="_blank" class="button">
                     <span class="icon">
                         <i class="fab fa-instagram"></i>
                     </span> &nbsp;
                     Instagram
                 </a>
-                <a href="https://twitter.com" target="_blank" class="button">
+                <a target="_blank" rel="noreferrer" href="https://twitter.com" target="_blank" class="button">
                     <span class="icon">
                         <i class="fab fa-twitter"></i>
                     </span> &nbsp;

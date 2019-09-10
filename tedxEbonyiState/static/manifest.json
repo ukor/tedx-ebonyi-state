@@ -1,0 +1,21 @@
+{
+    "short_name": "TedxAbakaliki",
+    "name": "Tedx Abakalikit",
+    "icons": [
+      {
+        "src": "/static/favicon/android-chrome-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/static/static/android-chrome-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/?source=pwa",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#000000"
+  }
