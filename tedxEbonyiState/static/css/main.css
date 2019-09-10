@@ -4,13 +4,12 @@ body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    min-width: 100vh;
-    min-height: 100vh;
+    max-width: 100%;
+    max-height: 100vh;
 }
 #frontpage-hero-wrapper {
-    width: 100%;
-    background-image: url('../images/illumination-dark-background.png');
-    background-position: center;
+    background: url('../images/illumination-dark-background.png');
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -27,6 +26,11 @@ body {
 #action-button-wrapper {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+#action-button-wrapper > a {
+    background-color: #e62b1e;
+    border: 0;
+    color: #fcf4f4;
 }
 
 #frontpage-about-ted {
@@ -75,12 +79,11 @@ body {
 #frontpage-location {
     width: 100%;
     background-image: url('../images/map_image.png');
-    background-position: center;
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     /* Background attachment act weird on some browsers,keep an eye on it */
     background-attachment: fixed;
-    text-align: center;
 }
 
 #location_background__overlay {
@@ -88,10 +91,9 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* Background attachment act weird on some browsers,keep an eye on it */
-    background-attachment: fixed;
     padding-top: 10%;
     padding-bottom: 10%;
+    text-align: center;
 }
 
 #frontpage-location-inner-wrapper, .__location-text {
@@ -115,7 +117,9 @@ body {
 }
 
 #__frontpage-time-inner-wrapper > a {
-    font-weight: 200;
+    color: #fcf4f4;
+    background-color: #000000;
+    border: 0;
 }
 
 #__fp-gallary {
@@ -125,6 +129,11 @@ body {
 #fp-gallery-arrows {
     text-align: center;
     padding: 1.5%;
+}
+
+.glide__slide > img {
+    max-width: 100%;
+    height: auto;
 }
 
 .footer {
@@ -147,4 +156,25 @@ body {
     text-align: center;
     padding: 2% 0;
     background-color: #000000;
+}
+
+@media only screen and (max-width: 768px){
+
+    #frontpage-hero-wrapper {
+        background: #000000;
+    }
+
+    #action-button-wrapper {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #frontpage-about-ted > div, #frontpage-about-tedx > div {
+        padding: 10%;
+    }
+
+    #frontpage-about-tedx-ebonyi > div {
+        padding: 5%;
+        margin: 5%;
+    }
 }
