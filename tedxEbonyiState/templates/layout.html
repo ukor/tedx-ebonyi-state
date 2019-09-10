@@ -13,6 +13,26 @@
 
         gtag('config', 'UA-147262774-1');
     </script>
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org/",
+          "@type": "Event",
+          "url": "https://www.tedxabakaliki.com/",
+          "name": "Tedx Abakaliki",
+          "description": "Illumination - Convergence and divergence of light",
+          "duration": "PT5H",
+          "eventSchedule": {
+             "@type": "Schedule",
+             "startDate": "2019-10-05",
+             "endDate": "2019-10-05",
+             "repeatFrequency": "P1Y",
+             "byDay": "http://schema.org/Saturday",
+             "startTime": "09:00",
+             "endTime": "16:00"
+          }
+        }
+        </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
     <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/bulma.min.css') }} />
     <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/main.css') }} />
     <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/countdown_timer.css') }} />
@@ -25,7 +45,6 @@
     {% else %}
     <title>Tedx Abakaliki</title>
     {% endif %}
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
     <script src="https://kit.fontawesome.com/f1afc290d0.js"></script>
 </head>
 <body>
