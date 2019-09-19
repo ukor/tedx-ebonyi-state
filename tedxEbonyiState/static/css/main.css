@@ -46,25 +46,25 @@ body {
     line-height: .2em;
 }
 #frontpage-about-ted > div > h3, #frontpage-about-tedx > div > h3 {
-    line-height: .5em;
     text-align:  right;
     padding-right: 5%;
+    font-size: 1.5em;
 }
 #frontpage-about-tedx > div > h3 {
-    line-height: .5em;
     text-align:  left;
     padding-left: 0;
 }
 #frontpage-about-ted > div > p, #frontpage-about-tedx > div > p {
     line-height: 1.5em;
     color: rgba(0, 0, 0, .6);
-    font-weight: 300;
+    font-weight: 500;
+    font-size: 1.3em;
 }
 
 #frontpage-about-tedx-ebonyi {
     color: rgba(0, 0, 0, .6);
-    font-weight: 300;
-    font-size: 1.5em;
+    font-weight: 500;
+    font-size: 1.3em;
 }
 #frontpage-about-tedx-ebonyi > div {
     padding: 5% 12.5%;
@@ -78,6 +78,7 @@ body {
 }
 #frontpage-location {
     width: 100%;
+    height: auto;
     background-image: url('../images/map_image.png');
     background-position: center center;
     background-size: cover;
@@ -102,12 +103,12 @@ body {
 #location__title {
     color: #ffffff;
     letter-spacing: .3em;
-    font-weight: 400;
+    font-weight: 500;
     padding-bottom: .3em;
 }
 
 #__frontpage-time-inner-wrapper {
-    padding: 7% 0;
+    padding: 10% 0;
 }
 
 #__frontpage-time-inner-wrapper > h1 {
@@ -173,8 +174,13 @@ body {
         padding: 10%;
     }
 
+    #frontpage-about-tedx-ebonyi {
+        font-size: 1em;
+    }
+
     #frontpage-about-tedx-ebonyi > div {
-        padding: 5%;
-        margin: 5%;
+        padding: 2.5%;
+        margin: 2.5%;
+        font-weight: 500;
     }
 }
