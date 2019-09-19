@@ -168,6 +168,16 @@ body {
     text-align: center;
 }
 
+.fa-facebook {
+    color: #1877f2;
+}
+.fa-instagram {
+    color: #c32aa3;
+}
+.fa-twitter {
+    color: #1da1f2;
+}
+
 #copyright-wrapper {
     font-size: small;
     color: #ffffff;
