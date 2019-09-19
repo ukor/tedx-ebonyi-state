@@ -125,17 +125,38 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
     <script type="application/javascript">
-        const glide = new Glide('.glide', {
+        const fp_images = new Glide('.fp_images', {
             type: 'slider',
             startAt: 0,
-            perView: 3,
+            perView: 2,
             autoplay: 2500,
             hoverpause: true,
             keyboard: true,
+            breakpoints: {
+                768: {
+                    perView: 1
+                }
+            }
         });
 
-        glide.mount();
+        fp_images.mount();
+        const fp_speaker_images = new Glide('.fp_speaker_images', {
+            type: 'slider',
+            startAt: 0,
+            perView: 2,
+            autoplay: 2500,
+            hoverpause: true,
+            keyboard: true,
+            breakpoints: {
+                768: {
+                    perView: 1
+                }
+            }
+        });
+
+        fp_speaker_images.mount();
     </script>
+
     <script src={{ url_for('static', filename='js/countdown_timer.js') }}></script>
 </body>
 </html>
