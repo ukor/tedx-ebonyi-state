@@ -1,0 +1,64 @@
+section._other-page-hero {
+    background-image: linear-gradient(45deg, rgb(133, 28, 39) 0%, rgb(133, 28, 39) 1%,rgb(191, 40, 36) 1%, rgb(191, 40, 36) 15%,rgb(76, 15, 42) 15%, rgb(76, 15, 42) 38%,rgb(162, 34, 38) 38%, rgb(162, 34, 38) 55%,rgb(220, 46, 35) 55%, rgb(220, 46, 35) 62%,rgb(105, 21, 41) 62%, rgb(105, 21, 41) 63%,rgb(47, 9, 44) 63%, rgb(47, 9, 44) 69%,rgb(18, 3, 45) 69%, rgb(18, 3, 45) 100%);
+    color: #ffffff;
+}
+
+h1.o_hero-title, h2.o_hero-subtitle {
+    color: #ffffff;
+}
+
+#_sp-speakers-wrapper {
+    padding: 2.5% 5%;
+    margin: 2.5% 5%;
+}
+
+.speaker-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 5% 3%;
+    text-align: center;
+  }
+
+  .speaker-card > h1 {
+      padding: 5%;
+      font-weight: 500;
+      font-size: 1.5em;
+  }
+
+  /* ._speaker-title {
+    color: grey;
+    font-size: 18px;
+  } */
+
+  button.speaker-contact-btn {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  a.speaker-social-handle {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  @media only screen and (max-width: 768px) {
+    #_sp-speakers-wrapper {
+        padding: 2.5% 5%;
+        margin: 2.5% 5%;
+    }
+
+    .speaker-card {
+        margin: 3% 3%;
+      }
+  }
