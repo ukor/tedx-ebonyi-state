@@ -12,3 +12,7 @@ from tedxEbonyiState import app
 @app.route('/home')
 def home():
     return render_template('index.html')
+
+@app.route('/speakers')
+def speakers():
+    return render_template('speakers_2019.html')
