@@ -16,3 +16,7 @@ def home():
 @app.route('/speakers')
 def speakers():
     return render_template('speakers_2019.html')
+
+@app.route('/blog')
+def blog():
+    return render_template('blog.html')

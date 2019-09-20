@@ -7,7 +7,7 @@ h1.o_hero-title, h2.o_hero-subtitle {
     color: #ffffff;
 }
 
-#_sp-speakers-wrapper {
+#_sp-speakers-wrapper, #_bp-blogs-wrapper {
     padding: 2.5% 5%;
     margin: 2.5% 5%;
 }
